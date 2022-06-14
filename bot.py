@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, 
 from aiogram.types import ReplyKeyboardMarkup, ReplyKeyboardRemove, KeyboardButton
 import logging
 
-bot = Bot(token='5511462464:AAF3LK7y8vTO_lIcuyiQKDpCgxWSZxGMmGw')
+bot = Bot(token='bot_token')
 dp = Dispatcher(bot)
 
 # welcome_Message
