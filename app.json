@@ -1,0 +1,25 @@
+{
+  "name": "Night Vission Test Bot",
+  "description": "Just another Telegram AI chat bot written in Python using Pyrogram.",
+  "repository": "https://github.com/DarkVission/Night-Vissions",
+  "keywords" : [
+    "python",
+    "ai-bot",
+    "telegram-ai-bot",
+    "telegram-bot",
+    "pyrogram",
+    "aiogram"
+  ],
+  "stack": "heroku-20",
+  "env": {
+    "bot_token": {
+           "description": "Your Bot's Api Token ,Get it from @BotFather",
+           "required": true
+    }
+  },
+  "buildpacks": [
+   {
+    "url": "heroku/python"
+   }
+  ]
+}
